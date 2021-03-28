@@ -1,0 +1,65 @@
+body {
+  background: url('https://wallpaperaccess.com/full/141516.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  overflow: scroll;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+#aboutme{
+  width: 100vw;
+}
+
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid yellow; 
+  white-space: nowrap; 
+  margin: 0 auto;
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+h2, a {
+  color: #fff !important;
+  font-family: monospace;
+  white-space: nowrap; 
+  margin: 0 auto;
+  letter-spacing: .15em; 
+}
+
+.text-content {
+  text-align: left;
+  width: 30%;
+  margin-left: 8.5%;
+}
+
+// h1 {
+//   width: 25vw;
+//   padding: 0px;
+//   border: 0px;
+//   margin: 0px;
+// }
+
+h1, h2 {
+  font-size: 25px !important;
+  color: #fff;
+  font-family: monospace;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
