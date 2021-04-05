@@ -3,6 +3,7 @@ import MainBody from './MainBody'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
 import Contact from './Contact'
+import Technologies from './Technologies'
 
 const Main = () => {
   return <>
@@ -17,7 +18,7 @@ const Main = () => {
             </span>
             <div id="navbarMenuHeroA" className="navbar-menu">
               <div className="navbar-start">
-                <a className="navbar-item">
+                <a className="navbar-item" href="#main">
                   Main
             </a>
                 <a className="navbar-item">
@@ -38,6 +39,7 @@ const Main = () => {
       <MainBody />
     </section>
     <AboutMe />
+    <Technologies />
     <Projects />
     <Contact />
   </>
