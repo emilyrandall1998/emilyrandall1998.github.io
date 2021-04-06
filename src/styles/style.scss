@@ -20,7 +20,7 @@ body {
   color: #fff;
   font-family: monospace;
   overflow: hidden; 
-  border-right: .15em solid yellow; 
+  border-right: .15em solid rgb(255, 226, 146); 
   white-space: nowrap; 
   margin: 0 auto;
   letter-spacing: .15em; 
@@ -61,7 +61,7 @@ p {
 i {
   font-size: 5rem;
   padding-top: 30px;
-  margin-right: 42px;
+  margin-right: 67px;
   color: white;
 }
 
@@ -135,5 +135,5 @@ i:hover {
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange }
+  50% { border-color: rgb(255, 226, 146) }
 }

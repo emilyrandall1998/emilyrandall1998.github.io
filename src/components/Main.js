@@ -21,13 +21,13 @@ const Main = () => {
                 <a className="navbar-item" href="#main">
                   Main
             </a>
-                <a className="navbar-item">
+                <a className="navbar-item" href="#about">
                   About
             </a>
-            <a className="navbar-item">
+            <a className="navbar-item" href="#projects">
                   Projects
             </a>
-                <a className="navbar-item">
+                <a className="navbar-item" href="#contact">
                   Contact Me
             </a>
               </div>
