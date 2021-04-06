@@ -6,7 +6,7 @@ import Contact from './Contact'
 import Technologies from './Technologies'
 
 const Main = () => {
-  return <>
+  return <div>
     <section className="hero is-large">
       <div className="hero-head">
         <nav className="navbar is-fixed-top">
@@ -42,7 +42,7 @@ const Main = () => {
     <Technologies />
     <Projects />
     <Contact />
-  </>
+  </ div>
 }
 
 export default Main
