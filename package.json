@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://emilyrandall1998.github.io/portfolio/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p --env.NODE_ENV=production",
     "serve": "webpack-dev-server --mode=development --env.NODE_ENV=local",
-    "deploy": "npm run build && gh-pages -d ."
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "author": "",
   "license": "ISC",
