@@ -5,8 +5,8 @@ import Projects from './Projects'
 import Contact from './Contact'
 import Technologies from './Technologies'
 
-const Main = () => {
-  return <>
+const Home = () => {
+  return <div>
     <section className="hero is-large">
       <div className="hero-head">
         <nav className="navbar is-fixed-top">
@@ -21,13 +21,16 @@ const Main = () => {
                 <a className="navbar-item" href="#main">
                   Main
             </a>
-                <a className="navbar-item">
+                <a className="navbar-item" href="#aboutme">
                   About
             </a>
-            <a className="navbar-item">
+            <a className="navbar-item" href="#projects">
                   Projects
             </a>
-                <a className="navbar-item">
+            <a className="navbar-item" href="#technologies">
+                  Technologies
+            </a>
+                <a className="navbar-item" href="#contact">
                   Contact Me
             </a>
               </div>
@@ -42,7 +45,7 @@ const Main = () => {
     <Technologies />
     <Projects />
     <Contact />
-  </>
+  </ div>
 }
 
-export default Main
+export default Home

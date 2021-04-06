@@ -6,7 +6,7 @@ import projectfour from '../images/projectfour.png'
 
 const Projects = () => {
 
-  return <section className="hero is-large" id="aboutme">
+  return <section className="hero is-large" id="projects">
     <div className="hero-body">
       <div className="text-content">
         <h1 className="proj" >Projects.</h1><br />
