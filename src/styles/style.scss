@@ -15,11 +15,20 @@ body {
   font-weight: 600 !important;
 }
 
-.aboutme, .technologies {
+.aboutme, .technologies, .interests {
   width: 60%;
   text-align: left;
   margin-left: 8.5%;
 }
+
+// .interests-container {
+//   display: flex;
+//   flex-direction: row;
+// }
+
+// .interest {
+//   margin: 5%;
+// }
 
 .typewriter h1 {
   color: #fff;

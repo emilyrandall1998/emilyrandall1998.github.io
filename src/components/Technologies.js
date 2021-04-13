@@ -20,7 +20,8 @@ const Technologies = () => {
         <i className="devicon-flask-original-wordmark"></i>
         <i className="devicon-git-plain-wordmark"></i>
         <i className="devicon-github-original-wordmark"></i>
-        <i className="devicon-google-plain-wordmark"></i>
+        {/* <i className="devicon-google-plain-wordmark"></i> */}
+        <i className="devicon-trello-plain-wordmark"></i>
         <i className="devicon-yarn-plain-wordmark"></i>
         </div><br />
         
@@ -48,7 +49,6 @@ const Technologies = () => {
         <i className="devicon-sass-original"></i>
         <i className="devicon-slack-plain-wordmark"></i>
         <i className="devicon-sqlalchemy-plain"></i>
-        <i className="devicon-trello-plain-wordmark"></i>
         </div>
 
       </div>

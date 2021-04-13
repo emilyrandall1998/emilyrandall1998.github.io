@@ -4,6 +4,7 @@ import AboutMe from './AboutMe'
 import Projects from './Projects'
 import Contact from './Contact'
 import Technologies from './Technologies'
+import Interests from './Interests'
 
 const Home = () => {
   return <div>
@@ -24,6 +25,9 @@ const Home = () => {
                 <a className="navbar-item" href="#aboutme">
                   About
             </a>
+                <a className="navbar-item" href="#interests">
+                  Interests
+            </a>
             <a className="navbar-item" href="#projects">
                   Projects
             </a>
@@ -42,6 +46,7 @@ const Home = () => {
       <MainBody />
     </section>
     <AboutMe />
+    <Interests />
     <Technologies />
     <Projects />
     <Contact />
