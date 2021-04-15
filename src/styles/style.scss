@@ -68,6 +68,15 @@ p {
   font-family: monospace !important;
 }
 
+strong {
+  color: #fff !important;
+  font-family: monospace !important;
+}
+
+.title {
+  margin-bottom: none !important;
+}
+
 i {
   font-size: 5rem;
   padding-top: 30px;
@@ -116,10 +125,15 @@ i {
   color: rgb(255, 226, 146) !important;
 }
 
-#p1, #p2, #p3, #p4 {
+#p1, #p2, #p3, #p4  {
   font-size: 2rem;
   color: white;
   padding-left: 11%;
+}
+
+#p41, #p42 {
+  font-size: 1rem;
+  color: white;
 }
 
 .technologies {
