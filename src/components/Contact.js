@@ -13,11 +13,11 @@ const Contact = () => {
           </div>
           <div className="contact-item">
             <a className="contact-link" target='_blank' 
-            href="https://www.linkedin.com/in/emilyjanerandall"><i className="devicon-linkedin-plain" id="contactl"></i>linkedin.com/in/emilyjanerandall</a>
+            href="https://www.linkedin.com/in/emilyjanerandall" target="blank"><i className="devicon-linkedin-plain" id="contactl"></i>linkedin.com/in/emilyjanerandall</a>
           </div>
           <div className="contact-item">
             <a className="contact-link" target='_blank' 
-            href="https://github.com/emilyrandall1998"><i className="devicon-github-original-wordmark" id="contactgh"></i>github.com/emilyrandall1998</a>
+            href="https://github.com/emilyrandall1998" target="blank"><i className="devicon-github-original-wordmark" id="contactgh"></i>github.com/emilyrandall1998</a>
           </div>
       </div>
       </div>
