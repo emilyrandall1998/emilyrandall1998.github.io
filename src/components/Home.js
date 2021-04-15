@@ -9,7 +9,7 @@ import Interests from './Interests'
 const Home = () => {
   return <div>
     <section className="hero is-large">
-      <div className="hero-head">
+      <div className="hero-head" id="main">
         <nav className="navbar is-fixed-top">
           <div className="container">
             <span className="navbar-burger" data-target="navbarMenuHeroA">

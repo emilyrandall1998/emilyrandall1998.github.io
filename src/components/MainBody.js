@@ -3,7 +3,7 @@ import React from 'react'
 const MainBody = () => {
 
   return <div className="hero-body">
-    <div id="main">
+    <div>
       <div className="typewriter">
         <div className="text-content">
           <h1>Emily Randall</h1>
