@@ -28,11 +28,11 @@ const Home = () => {
                 <a className="navbar-item" href="#interests">
                   Interests
             </a>
-            <a className="navbar-item" href="#projects">
-                  Projects
-            </a>
             <a className="navbar-item" href="#technologies">
                   Technologies
+            </a>
+            <a className="navbar-item" href="#projects">
+                  Projects
             </a>
                 <a className="navbar-item" href="#contact">
                   Contact Me

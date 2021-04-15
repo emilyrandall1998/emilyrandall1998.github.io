@@ -21,15 +21,6 @@ body {
   margin-left: 8.5%;
 }
 
-// .interests-container {
-//   display: flex;
-//   flex-direction: row;
-// }
-
-// .interest {
-//   margin: 5%;
-// }
-
 .typewriter h1 {
   color: #fff;
   font-family: monospace;
@@ -73,8 +64,8 @@ h1, h2 {
 }
 
 p {
-  color: #fff;
-  font-family: monospace;
+  color: #fff !important;
+  font-family: monospace !important;
 }
 
 i {
@@ -89,12 +80,40 @@ i {
   color: white;
 }
 
-// #contactg:hover, #contactl:hover, #contactgh:hover {
-//   color: rgb(255, 226, 146);
-// }
+.row-1, .row-2, .row-3, .row-4 {
+  display: flex;
+  flex-direction: row;
+}
 
-i:hover {
-  color: rgb(255, 226, 146);
+.iconDiv {
+  width: 80px;
+  padding-top: 30px;
+  margin-right: 67px;
+}
+
+.iconDiv p {
+  display: none;
+}
+
+.iconDiv:hover {
+  position: relative;
+  border-radius: 5px;
+}
+
+.iconDiv:hover i {
+  display: none;
+}
+
+.iconDiv:hover p {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(255, 226, 146) !important;
 }
 
 #p1, #p2, #p3, #p4 {
