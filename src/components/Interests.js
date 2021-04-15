@@ -9,7 +9,7 @@ const Interests = () => {
         <div className="interests-container">
           <div className="interest">
             <p className="subtitle">Travelling</p>
-            <p>I spent 5 months travelling through South East Asia and Australia just before the start of lockdown last year. I loved the Philippines which really took me by surprise, and I’d love to go to South America next, or even Spain - I’m looking to brush up on my Spanish!</p>
+            <p>I spent 5 months travelling through South East Asia and Australia just before the start of lockdown last year. I loved the Philippines which really took me by surprise, and I’d love to go to South America next or even Spain - I’m looking to brush up on my Spanish!</p>
           </div><br />
           <div className="interest">
             <p className="subtitle">Reading</p>
